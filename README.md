@@ -13,4 +13,17 @@ Verilen .zip dosyası indirilir, rar'dan çıkarılır.
 
 ## Kullanımı
 
-F11 ile Fullscreen-Windowed mod arasında geçiş sağlanır, esc ile Fullscreen moddan çıkılır.
+F11 veya Tam ekran düğmesi: tam ekranı açar/kapatır.
+Esc: tam ekrandan çıkar.
+Saniye: normal saatin saniyesini gösterir/gizler.
+Oturum seçimi: sıradaki oturum, TYT veya AYT.
+
+Oturum ve saniye tercihlerin sonraki açılış için kaydedilir.
+Uygulama internet olmadan çalışır. Windows'un .NET Framework bileşenini kullanır.
+Pencere küçültüldüğünde saat güncellemeleri durur, geri açıldığında güncel saati gösterir.
+
+TYT 19 Haziran 2027, AYT 20 Haziran 2027 olarak ayarlı. Başlangıç saati 10.15 varsayılmıştır.
+Sınav tarihleri Türkiye saatiyle hesaplanır. Normal saat bilgisayarının saatidir.
+
+Kaynak klasöründeki C# kodu ve Build.ps1, uygulamayı yeniden derlemek içindir.
+
